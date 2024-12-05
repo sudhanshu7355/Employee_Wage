@@ -12,4 +12,4 @@ UC_4 - Calculating Wages for a Month assuming 20 Working Days in a Month
 
 UC_5 - Calculate Wages till a condition of total working hours of 160 or max days of 20 is reached for a month
 
-UC_2 - calculate wage of 12 months and total hours
+UC_6 - calculate wage of 12 months and total hours
