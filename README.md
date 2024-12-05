@@ -7,3 +7,5 @@ Employee Wage based on
 part time or full time work
 
 UC_3 - Refactor the Code to write a function to get work hours
+
+UC_4 - Calculating Wages for a Month assuming 20 Working Days in a Month
