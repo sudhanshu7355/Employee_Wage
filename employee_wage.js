@@ -1,4 +1,4 @@
-//Calculate Wages till a condition of total working hours of 160 or max days of 20 is reached for a month
+// calculate the wage of 12 months 
 
 
 function month_wage() {
@@ -7,11 +7,12 @@ function month_wage() {
     const PART_TIME_HOURS = 4;
     const FULL_TIME_HOURS = 8;
     const HOUR_WAGE = 20;
+    let month=1;
     
     let day=1;
   
     // for (let i = 1; i <= 20; i++) {
-        while(day<20 && total_hours<160){
+        while( month<12 && day<20 && total_hours<160){
       
       let isPresent = Math.floor(Math.random() * 2); 
   
@@ -50,9 +51,14 @@ function month_wage() {
     }
   
     console.log(`\nTotal Hours Worked: ${total_hours}`);
-    console.log(`Total Monthly Wage: $${total_wage}`);
+    console.log(`Total yearly Wage: $${total_wage}`);
+    
+    
+
+
 }
 //   }
   
   
   month_wage();
+
